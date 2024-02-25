@@ -7,7 +7,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    background-image: url("/img/canhCay.png");
+    background-image: url("./canhCay.png");
 }
 
 .wrapper {

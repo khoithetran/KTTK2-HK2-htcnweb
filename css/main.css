@@ -1,0 +1,123 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-image: url("/img/canhCay.png");
+}
+
+.wrapper {
+    width: 960px;
+    background-color: #fff;
+    border: 5px solid #fff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #ffbeff;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: yellow;
+}
+
+.specilItem {
+    margin-left: 125px;
+}
+
+a button {
+    background-color: #0f97f7;
+    color: #fff;
+    /* border: 1px solid #000; */
+    border-radius: 5px
+}
+
+.content, .row {
+    width: 100%;
+    display: table;
+    clear: both;
+}
+
+.col-50 {
+    width: 50%;
+    float: left;
+}
+
+.section {
+    width: 70%;
+    float: left;
+    min-height: 400px;
+    
+    background: linear-gradient(to right, aqua, white, aqua);
+}
+
+form {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 23px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.form-btn {
+    font-size: 20px;
+    margin: 10px 33px;
+}
+
+.inputName, .inputEmail {
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.aside {
+    width: 30%;
+    float: left;
+}
+
+.aside-heading {
+    color: red;
+    text-shadow: 5px 5px 5px yellow;
+    padding: 10px;
+    margin-bottom: 14px;
+    border-bottom: 1px dotted red;
+}
+
+.aside-img {
+    width: 95%;
+    box-shadow: 5px 5px 5px gray;
+    transition: transform 0.5s ease;
+}
+
+.aside-img:hover {
+    transform: rotate(25deg);
+}
+
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(148, 148, 62);
+}
